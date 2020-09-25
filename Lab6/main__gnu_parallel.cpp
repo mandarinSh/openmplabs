@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 {
     try 
     {
-        if ((argc != 4) 
+        if ((argc != 4)) 
         {
             throw std::invalid_argument("Incorrect amount of arguments");
         }
